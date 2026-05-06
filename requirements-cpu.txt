@@ -1,0 +1,12 @@
+--index-url https://download.pytorch.org/whl/cpu
+torchvision
+torchaudio
+transformers>=4.44.0
+datasets
+peft
+accelerate
+trl
+torch>=2.11.0
+rich
+click
+

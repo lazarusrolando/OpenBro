@@ -1,0 +1,13 @@
+{"instruction": "Translate English to French", "input": "Good morning!", "output": "Bonjour!"}
+{"instruction": "Summarize the following sentence", "input": "Deep learning enables computers to learn complex patterns from large amounts of data.", "output": "Deep learning lets computers learn patterns from data."}
+{"instruction": "What is the capital of Japan?", "input": "", "output": "Tokyo"}
+{"instruction": "Write a short Python function", "input": "Create a function that returns the square of a number.", "output": "def square(n):\n    return n ** 2"}
+{"instruction": "Correct the grammar", "input": "She don't like apples.", "output": "She doesn't like apples."}
+{"instruction": "Generate a creative story opening", "input": "A mysterious letter arrives at midnight.", "output": "The clock struck twelve when the envelope slid under the door, its wax seal glowing faintly in the moonlight."}
+{"instruction": "Solve the math problem", "input": "What is 15 multiplied by 4?", "output": "60"}
+{"instruction": "Classify the sentiment", "input": "I absolutely loved the movie; it was fantastic!", "output": "Positive"}
+{"instruction": "Explain in simple terms", "input": "What is photosynthesis?", "output": "Photosynthesis is how plants use sunlight, water, and carbon dioxide to make their own food and release oxygen."}
+{"instruction": "Translate English to Spanish", "input": "Thank you very much.", "output": "Muchas gracias."}
+{"instruction": "Give a programming tip", "input": "How do I avoid bugs in my code?", "output": "Write small functions, use meaningful variable names, and test your code frequently."}
+{"instruction": "Recommend a book genre", "input": "I enjoy stories about space exploration and alien civilizations.", "output": "Science fiction"}
+
