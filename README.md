@@ -82,17 +82,17 @@ You can also install OpenBro globally with a single command:
 
 **For Unix/Linux/macOS:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/lazarusrolando/OpenBro/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/lazarusrolando/OpenBro/master/install.sh | bash
 ```
 
 **For Windows PowerShell:**
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/lazarusrolando/OpenBro/main/install.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/lazarusrolando/OpenBro/master/install.ps1'))
 ```
 
 **For Windows Command Prompt:**
 ```cmd
-powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/lazarusrolando/OpenBro/main/install.bat -UseBasicParsing | Invoke-Expression"
+powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/lazarusrolando/OpenBro/master/install.bat -UseBasicParsing | Invoke-Expression"
 ```
 
 ---

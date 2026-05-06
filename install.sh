@@ -1,6 +1,6 @@
 #!/bin/bash
 # OpenBro Installation Script
-# Download and run with: curl -fsSL https://raw.githubusercontent.com/lazarusrolando/OpenBro/main/install.sh | bash
+# Download and run with: curl -fsSL https://raw.githubusercontent.com/lazarusrolando/OpenBro/master/install.sh | bash
 
 set -e  # Exit on any error
 
