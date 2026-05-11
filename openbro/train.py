@@ -51,7 +51,7 @@ def run_training():
 
     # Use a plain PyTorch Dataset with Alpaca formatting
     class InstructDataset(TorchDataset):
-        def __init__(self, data, tokenizer, max_length=256):
+        def __init__(self, data, tokenizer, max_length=10000):
             self.samples = []
             for example in data:
                 prompt = (

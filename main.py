@@ -236,7 +236,7 @@ def load_model():
 # ════════════════════════════════════════════════════════════
 #  GENERATION
 # ════════════════════════════════════════════════════════════
-def generate_stream(model, tokenizer, prompt_text, max_new_tokens=10000, temperature=0.9, top_p=0.5):
+def generate_stream(model, tokenizer, prompt_text, max_new_tokens=20000, temperature=0.9, top_p=0.5):
     """Yield tokens from the model using a background thread."""
     inputs = tokenizer([prompt_text], return_tensors="pt").to("cpu")
     streamer = TextIteratorStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
